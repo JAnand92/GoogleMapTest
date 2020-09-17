@@ -20,9 +20,6 @@ public class SearchResultComponent extends Base {
     @FindBy(xpath = "//input[@class='tactile-searchbox-input']")
     private List<WebElement> destinationFields;
 
-    @FindBy(linkText = "Send directions to your phone")
-    private WebElement lnkTxt;
-
     public SearchResultComponent(WebDriver driver) {
         super(driver);
     }

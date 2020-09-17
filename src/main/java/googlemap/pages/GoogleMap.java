@@ -41,6 +41,7 @@ public class GoogleMap extends Base {
         return this.searchComponent.isAt();
     }
 
+    /*Handling google privacy pop-up*/
     private By frame = By.xpath("//iframe[@class='widget-consent-frame']");
     public boolean googlePopupCheck() {
         try {
